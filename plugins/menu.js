@@ -1,15 +1,3 @@
-/*
-_  ______   _____ _____ _____ _   _
-| |/ / ___| |_   _| ____/___ | | | |
-| ' / |  _    | | |  _|| |   | |_| |
-| . \ |_| |   | | | |__| |___|  _  |
-|_|\_\____|   |_| |_____\____|_| |_|
-
-ANYWAY, YOU MUST GIVE CREDIT TO MY CODE WHEN COPY IT
-CONTACT ME HERE +237656520674
-YT: KermHackTools
-Github: Kgtech-cmr
-*/
 
 const config = require('../config')
 const {cmd , commands} = require('../command')
@@ -21,7 +9,7 @@ cmd({
 
     pattern: "menu",
 
-    react: "📑",
+    react: "🎁",
 
     desc: "Get bot command list.",
 
@@ -41,12 +29,12 @@ let madeMenu = `*╭══〘〘 ${config.BOT_NAME} 〙〙*
 *┃❍* *ᴍᴏᴅᴇ* : *${config.MODE}*
 *┃❍* *ᴘʀᴇғɪx* : *${config.PREFIX}*
 *┃❍* *ʀᴀᴍ ᴜsᴇ* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
-*┃❍* *ɴᴀᴍᴇ ʙᴏᴛ* : *❖『𝗞𝗘𝗥𝗠 𝗠𝗗 𝗩1』❖*
-*┃❍* *ᴄʀᴇᴀᴛᴏʀ* : *Kɢ Tᴇᴄʜ*
+*┃❍* *ɴᴀᴍᴇ ʙᴏᴛ* : *❖『CORNEH 𝗩2』❖*
+*┃❍* *ᴄʀᴇᴀᴛᴏʀ* : *Corneh Tᴇᴄʜ*
 *┃❍* *ᴀʟᴡᴀʏs ᴏɴʟɪɴᴇ* : *${config.ALWAYS_ONLINE}*
 *┃❍* *ᴠᴇʀsɪᴏɴs* : *4.2.1*
 *╰═════════════════⊷*
-  Kᴇʀᴍ & Gɪꜰꜰᴀʀᴇɴᴏ = Kɢ
+  CORNEH & TECH = CORNEH
  *♡︎•━━━━━━☻︎━━━━━━•♡︎*
 *╭────❒⁠⁠⁠⁠* *📥 DOWNLOADER-CMD 📥* *❒⁠⁠⁠⁠* 
 *├⬡* *.ғʙ*
@@ -67,7 +55,7 @@ let madeMenu = `*╭══〘〘 ${config.BOT_NAME} 〙〙*
 *├⬡* *.ʙᴀɪsᴄᴏᴘᴇ*
 *├⬡* *.ɢɪɴɪsɪsɪʟᴀ*
 *┕──────────────❒*
-*╭────❒⁠⁠⁠⁠* *🏮EMPIRE KERM🏮* *❒⁠⁠⁠⁠* 
+*╭────❒⁠⁠⁠⁠* *🏮EMPIRE CORNEH🏮* *❒⁠⁠⁠⁠* 
 *├⬡* *.Fᴀᴍɪʟʏ*
 *├⬡* *.Vᴀᴡᴜʟᴇɴᴄᴇ*
 *├⬡* *.ᴄʜᴀɴɴᴇʟ*
@@ -269,7 +257,7 @@ await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:madeMenu,
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
       newsletterJid: '120363321386877609@newsletter',
-      newsletterName: '𝐊𝐄𝐑𝐌 𝐌𝐃 𝐕𝟏',
+      newsletterName: 'CORNEH 𝐕2',
       serverMessageId: 999
     }
   }
