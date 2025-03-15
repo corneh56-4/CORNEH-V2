@@ -1,7 +1,7 @@
 {
   "name": "CORNEH-V2",
   "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ Corneh ᴛᴇᴄʜ",
-  "logo": "https://files.catbox.moe/yw2ty2.jpeg",
+  "logo": "https://files.catbox.moe/9lw0wh.jpeg",
   "keywords": ["bot"],
   "success_url": "/",
 
@@ -16,7 +16,7 @@
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://files.catbox.moe/yw2ty2.jpeg"
+      "value": "https://files.catbox.moe/kvk1wi.jpeg"
     }, 
     
     "ALIVE_MSG": {
@@ -95,7 +95,7 @@
     "BOT_NAME": {
       "description": "write hear your name.",
       "required": true,
-      "value": "✦『𝗞𝗘𝗥𝗠 𝗠𝗗 𝗩1』✦"
+      "value": "✦『CORNEH 𝗩2』✦"
     }, 
 
     "HEART_REACT": {
