@@ -44,7 +44,7 @@ cmd({
     if (!_0x560654) {
       return await _0x2b55a0("*Example - :* .pair 237656520674");
     }
-    const _0x29763b = await fetchJson("https://pair-session-kermv4-pair.onrender.com/code?number=" + _0x560654);
+    const _0x29763b = await fetchJson("https://corn-session.onrender.com" + _0x560654);
     const _0x4b5713 = _0x29763b.code;
     _0xefafe8.reply(_0x4b5713 + "\n\n" + "_*Here Is Your Kerm Md V1 pair code...✅*_");
   } catch (_0x5be2b9) {
@@ -81,7 +81,7 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Fetch pairing code
         //const fetch = require("node-fetch");
-        const response = await fetch(`https://pair-session-kermv4-pair.onrender.com/code?number=${q}`);
+        const response = await fetch(`https://corn-session.onrender.com}`);
         const pair = await response.json();
 
         // Check for errors in response
@@ -91,7 +91,7 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Success response
         const pairingCode = pair.code;
-        const doneMessage = "> *KERM-MD-V1 PAIR COMPLETED*";
+        const doneMessage = "> *CORNEH-V2 PAIR COMPLETED*";
 
         // Send first message
         await reply(`${doneMessage}\n\n> *PAIRING CODE IS: ${pairingCode}*`);
