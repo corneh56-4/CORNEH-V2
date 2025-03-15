@@ -66,7 +66,7 @@ const { cmd } = require('../command');
 cmd({
   pattern: "owner",
   react: "👑", 
-  alias: ["kerm"],
+  alias: ["Corneh"],
   desc: "Get owner number",
   category: "main",
   filename: __filename
@@ -74,8 +74,8 @@ cmd({
   try {
     // Propriétaires' informations de contact
     const owners = [
-      { number: '+237656520674', name: '༒𝐋𝐎𝐑𝐃 𝐊𝐄𝐑𝐌༒', organization: 'UD TEAM' },
-      { number: '+237650564445', name: 'ᵏᵍᶠ┘𝐓𝐄𝐑𝐌𝐈𝐍𝐀𝐓𝐎𝐑', organization: 'UD TEAM' }
+      { number: '+254716226465', name: '༒CORNEH TECH༒', organization: 'UD TEAM' },
+      { number: '+254716226465', name: 'CORNEH', organization: 'UD TEAM' }
     ];
 
     let contacts = [];
