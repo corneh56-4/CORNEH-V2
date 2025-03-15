@@ -1,14 +1,14 @@
 {
-    "bot-name": "KERM-MD-V1",
-    "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ Kɢ ᴛᴇᴄʜ",
+    "bot-name": "CORNEH-V2",
+    "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ CORNEH ᴛᴇᴄʜ",
     "logo": "https://files.catbox.moe/yw2ty2.jpeg",
     "keywords": ["bot"],
-    "documentation-link": "https://pair-session-kermv4-pair.onrender.com",
+    "documentation-link": "https://corn-session.onrender.com",
     "owner-verification":"bookmakerp@gmail.com",
   
     "env": {
       "SESSION_ID": {
-        "description": "Put your SESSION_ID here. Make sure it starts with KERM-MD-V1~, or get session id from here, https://pair-session-kermv4-pair.onrender.com",
+        "description": "Put your SESSION_ID here. Make sure it starts with CORNEH_TECH_254~, or get session id from here, https://corn-session.onrender.com",
         "value":"",
         "required": true
         
@@ -71,7 +71,7 @@
       "BOT_NAME": {
         "description": "write hear your name.",
         "required": true,
-        "value": "✦『𝗞𝗘𝗥𝗠 𝗠𝗗 𝗩1』✦"
+        "value": "✦『CORNEH 𝗩2』✦"
         
       },
       "ANTI_LINK": {
